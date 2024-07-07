@@ -28,3 +28,18 @@
     padding: 1rem;
     background-color: var(--laranja);
 }
+
+@media screen and (min-width: 1024px) {
+    .topicos__titulo {
+        font-size: 1.5rem;
+    }
+
+    .topicos__item {
+        margin: 2.5rem .6rem;
+    }
+
+    .topicos__link {
+        font-size: 1.5rem;
+        padding: 1.5rem 2rem;
+    }
+}
